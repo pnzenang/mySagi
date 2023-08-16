@@ -50,7 +50,7 @@ export const forgotPassword = async (req, res) => {
   if (user) {
     const passwordToken = crypto.randomBytes(70).toString("hex");
     //send email
-    const origin = "http://active-solidarity.com";
+    const origin = "http://active-solidarity-com.onrender.com";
 
     await sendResetPasswordEmail({
       name: `${user.firstName}  ${user.lastAndMiddleName}`,
