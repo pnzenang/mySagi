@@ -47,7 +47,11 @@ const Member = ({
             icon={<MdOutlineNumbers />}
             text={memberMatriculation}
           />
-          <MemberInfo icon={<FaCalendarAlt />} text={date} title="" />
+          <MemberInfo
+            icon={<FaCalendarAlt />}
+            text={date}
+            title={`(${time})`}
+          />
           <MemberInfo icon={<GoCheck />} text={delegateRecommendation} />
           <div className={`status ${memberStatus}`}>{memberStatus}</div>
         </div>
