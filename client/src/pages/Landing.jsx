@@ -17,9 +17,9 @@ const Landing = () => {
           </h1>
           <p>
             This is an extension of the solidarity that we know back home, where
-            one person's problem become the community's problem; cameroonians
+            one person's problem becomes the community's problem; cameroonians
             registered to SAGI get together to take care of their fallen sister
-            or brother without breaking the bank or enriching somebody else.
+            or brother without breaking the bank.
           </p>
           <Link to="/home" className="btn explore-link">
             explore
