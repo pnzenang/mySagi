@@ -16,10 +16,10 @@ const Landing = () => {
             an <span>active</span> solidarity
           </h1>
           <p>
-            I'm baby wayfarers hoodie next level taiyaki brooklyn cliche blue
-            bottle single-origin coffee chia. Aesthetic post-ironic venmo,
-            quinoa lo-fi tote bag adaptogen everyday carry meggings +1 brunch
-            narwhal.
+            This is an extension of the solidarity that we know back home, where
+            one person's problem become the community's problem; cameroonians
+            registered to SAGI get together to take care of their fallen sister
+            or brother without breaking the bank or enriching somebody else.
           </p>
           <Link to="/home" className="btn explore-link">
             explore
