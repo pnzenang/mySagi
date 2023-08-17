@@ -25,7 +25,7 @@ const Landing = () => {
             explore
           </Link>
           <Link to="/login" className=" btn">
-            Login
+            Account
           </Link>
         </div>
         <img src={main} alt="job hunt" className="img main-img" />

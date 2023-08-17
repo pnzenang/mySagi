@@ -20,7 +20,7 @@ const Navbar2 = () => {
         </div>
         <div className="btn-container">
           <Link to="/login" className="btn ">
-            Login
+            Account
           </Link>
         </div>
       </div>
